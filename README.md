@@ -9,6 +9,8 @@ changes the state of the news agency, and it causes the channels to be notified.
 
 ![02  Observer UML](https://user-images.githubusercontent.com/101111710/187472352-4a380aa2-a779-4ac5-a214-97eec4f60763.jpg)
 
+Gray arrow means a concrete observer may or may not have a concrete observable.
+
 
 ### UML for our case
 
