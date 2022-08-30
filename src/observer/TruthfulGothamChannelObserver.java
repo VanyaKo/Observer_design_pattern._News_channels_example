@@ -2,10 +2,10 @@ package observer;
 
 import observable.NewsAgencyObservable;
 
-public class GothamChannelObserver implements IObserver {
+public class TruthfulGothamChannelObserver implements IObserver {
     NewsAgencyObservable news;
 
-    public GothamChannelObserver(NewsAgencyObservable news) {
+    public TruthfulGothamChannelObserver(NewsAgencyObservable news) {
         this.news = news;
     }
 

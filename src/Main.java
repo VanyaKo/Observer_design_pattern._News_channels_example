@@ -1,11 +1,11 @@
 import observable.NewsAgencyObservable;
-import observer.GothamChannelObserver;
+import observer.TruthfulGothamChannelObserver;
 
 public class Main {
 
     public static void main(String[] args) {
         NewsAgencyObservable newsAgency = new NewsAgencyObservable(); // Initialize news agency.
-        GothamChannelObserver channel = new GothamChannelObserver(newsAgency); // Initialize the channel which will receive news.
+        TruthfulGothamChannelObserver channel = new TruthfulGothamChannelObserver(newsAgency); // Initialize the channel which will receive news.
 
         // Add the channel to the list of news agency subscribers.
         newsAgency.add(channel);
