@@ -2,10 +2,10 @@ package observer;
 
 import observable.NewsAgencyObservable;
 
-public class ChannelObserver implements IObserver {
+public class GothamChannelObserver implements IObserver {
     NewsAgencyObservable news;
 
-    public ChannelObserver(NewsAgencyObservable news) {
+    public GothamChannelObserver(NewsAgencyObservable news) {
         this.news = news;
     }
 
@@ -14,7 +14,7 @@ public class ChannelObserver implements IObserver {
      */
     @Override
     public void update() {
-        System.out.println(news.getNewsDescription());
+        System.out.println(news.getNewsDescription() + "\n\tSincerely, your Truthful Gotham channel.\n");
     }
 
     /**

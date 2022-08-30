@@ -19,7 +19,7 @@ public class NewsAgencyObservable implements IObservable {
     @Override
     public void add(IObserver observer) {
         observers.add(observer);
-        System.out.println(observer.toString() + " is added");
+        System.out.println(observer.toString() + " is added.");
     }
 
     @Override
